@@ -1,0 +1,343 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 216 272 384 288)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "CLK" (rect 5 0 25 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 160 288 216 312))
+)
+(pin
+	(output)
+	(rect 584 352 760 368)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "CS" (rect 90 0 105 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 760 368 824 392))
+)
+(pin
+	(bidir)
+	(rect 584 320 760 336)
+	(text "BIDIR" (rect 1 0 25 10)(font "Arial" (font_size 6)))
+	(text "SDA" (rect 90 0 110 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 56 4)(pt 78 4))
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 56 12)(pt 78 12))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 78 12)(pt 82 8))
+		(line (pt 56 4)(pt 52 8))
+		(line (pt 52 8)(pt 56 12))
+	)
+	(text "VCC" (rect 4 7 24 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 760 336 816 360))
+)
+(pin
+	(bidir)
+	(rect 584 336 760 352)
+	(text "BIDIR" (rect 1 0 25 10)(font "Arial" (font_size 6)))
+	(text "SCL" (rect 90 0 108 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 56 4)(pt 78 4))
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 56 12)(pt 78 12))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 78 12)(pt 82 8))
+		(line (pt 56 4)(pt 52 8))
+		(line (pt 52 8)(pt 56 12))
+	)
+	(text "VCC" (rect 4 7 24 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 760 352 816 376))
+)
+(symbol
+	(rect 384 424 592 568)
+	(text "unnamed" (rect 78 -1 140 15)(font "Arial" (font_size 10)))
+	(text "inst3" (rect 8 128 30 145)(font "Intel Clear" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "probe[9..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "probe[9..0]" (rect 4 61 65 75)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 80 72)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(output)
+		(text "source[17..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "source[17..0]" (rect 4 101 79 115)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 80 112)(line_width 3))
+	)
+	(drawing
+		(text "probes" (rect 41 43 87 58)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "probe" (rect 85 67 112 79)(font "Arial" (color 0 0 0)))
+		(text "sources" (rect 35 83 88 98)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "source" (rect 85 107 118 119)(font "Arial" (color 0 0 0)))
+		(text " unnamed " (rect 167 128 218 140)(font "Arial" ))
+		(line (pt 80 32)(pt 128 32))
+		(line (pt 128 32)(pt 128 128))
+		(line (pt 80 128)(pt 128 128))
+		(line (pt 80 32)(pt 80 128))
+		(line (pt 81 52)(pt 81 76))
+		(line (pt 82 52)(pt 82 76))
+		(line (pt 81 92)(pt 81 116))
+		(line (pt 82 92)(pt 82 116))
+		(line (pt 0 0)(pt 208 0))
+		(line (pt 208 0)(pt 208 144))
+		(line (pt 0 144)(pt 208 144))
+		(line (pt 0 0)(pt 0 144))
+	)
+)
+(symbol
+	(rect 384 248 584 392)
+	(text "i2c_master" (rect 5 0 59 12)(font "Arial" ))
+	(text "inst" (rect 8 128 25 140)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "reset_n" (rect 0 0 36 12)(font "Arial" ))
+		(text "reset_n" (rect 21 43 57 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "ena" (rect 0 0 17 12)(font "Arial" ))
+		(text "ena" (rect 21 59 38 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "addr[6..0]" (rect 0 0 47 12)(font "Arial" ))
+		(text "addr[6..0]" (rect 21 75 68 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "rw" (rect 0 0 10 12)(font "Arial" ))
+		(text "rw" (rect 21 91 31 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "data_wr[7..0]" (rect 0 0 63 12)(font "Arial" ))
+		(text "data_wr[7..0]" (rect 21 107 84 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 200 32)
+		(output)
+		(text "busy" (rect 0 0 24 12)(font "Arial" ))
+		(text "busy" (rect 159 27 183 39)(font "Arial" ))
+		(line (pt 200 32)(pt 184 32))
+	)
+	(port
+		(pt 200 48)
+		(output)
+		(text "data_rd[7..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "data_rd[7..0]" (rect 127 43 189 55)(font "Arial" ))
+		(line (pt 200 48)(pt 184 48)(line_width 3))
+	)
+	(port
+		(pt 200 64)
+		(output)
+		(text "ack_error" (rect 0 0 46 12)(font "Arial" ))
+		(text "ack_error" (rect 141 59 187 71)(font "Arial" ))
+		(line (pt 200 64)(pt 184 64))
+	)
+	(port
+		(pt 200 112)
+		(output)
+		(text "cs" (rect 0 0 11 12)(font "Arial" ))
+		(text "cs" (rect 170 107 181 119)(font "Arial" ))
+		(line (pt 200 112)(pt 184 112))
+	)
+	(port
+		(pt 200 80)
+		(bidir)
+		(text "sda" (rect 0 0 17 12)(font "Arial" ))
+		(text "sda" (rect 165 75 182 87)(font "Arial" ))
+		(line (pt 200 80)(pt 184 80))
+	)
+	(port
+		(pt 200 96)
+		(bidir)
+		(text "scl" (rect 0 0 14 12)(font "Arial" ))
+		(text "scl" (rect 169 91 183 103)(font "Arial" ))
+		(line (pt 200 96)(pt 184 96))
+	)
+	(parameter
+		"input_clk"
+		"50000000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"bus_clk"
+		"100000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 184 128))
+	)
+	(annotation_block (parameter)(rect 584 184 784 248))
+)
+(connector
+	(pt 320 496)
+	(pt 320 416)
+	(bus)
+)
+(connector
+	(text "pr[9..0]" (rect 343 480 376 497)(font "Intel Clear" ))
+	(pt 384 496)
+	(pt 320 496)
+	(bus)
+)
+(connector
+	(text "sc[17]" (rect 335 280 363 297)(font "Intel Clear" ))
+	(pt 384 296)
+	(pt 304 296)
+)
+(connector
+	(text "sc[16]" (rect 345 296 373 313)(font "Intel Clear" ))
+	(pt 384 312)
+	(pt 304 312)
+)
+(connector
+	(text "sc[15..9]" (rect 341 312 379 329)(font "Intel Clear" ))
+	(pt 384 328)
+	(pt 304 328)
+	(bus)
+)
+(connector
+	(text "sc[8]" (rect 342 328 364 345)(font "Intel Clear" ))
+	(pt 384 344)
+	(pt 304 344)
+)
+(connector
+	(text "sc[7..0]" (rect 342 344 375 361)(font "Intel Clear" ))
+	(pt 384 360)
+	(pt 304 360)
+	(bus)
+)
+(connector
+	(text "sc[17..0]" (rect 343 520 381 537)(font "Intel Clear" ))
+	(pt 304 536)
+	(pt 384 536)
+	(bus)
+)
+(connector
+	(pt 304 360)
+	(pt 304 536)
+	(bus)
+)
+(connector
+	(pt 304 344)
+	(pt 304 360)
+	(bus)
+)
+(connector
+	(pt 304 328)
+	(pt 304 344)
+	(bus)
+)
+(connector
+	(pt 304 296)
+	(pt 304 312)
+	(bus)
+)
+(connector
+	(pt 304 312)
+	(pt 304 328)
+	(bus)
+)
+(connector
+	(pt 320 416)
+	(pt 760 416)
+	(bus)
+)
+(connector
+	(text "pr[9]" (rect 625 264 647 281)(font "Intel Clear" ))
+	(pt 584 280)
+	(pt 760 280)
+)
+(connector
+	(text "pr[8..1]" (rect 616 280 649 297)(font "Intel Clear" ))
+	(pt 584 296)
+	(pt 760 296)
+	(bus)
+)
+(connector
+	(pt 760 280)
+	(pt 760 296)
+	(bus)
+)
+(connector
+	(pt 760 296)
+	(pt 760 312)
+	(bus)
+)
+(connector
+	(pt 760 312)
+	(pt 760 416)
+	(bus)
+)
+(connector
+	(text "pr[0]" (rect 628 296 650 313)(font "Intel Clear" ))
+	(pt 584 312)
+	(pt 760 312)
+)
+(junction (pt 304 360))
+(junction (pt 304 344))
+(junction (pt 304 328))
+(junction (pt 304 312))
+(junction (pt 760 296))
+(junction (pt 760 312))

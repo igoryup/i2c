@@ -1,0 +1,59 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 272 208)
+	(text "unnamed" (rect 78 -1 140 15)(font "Arial" (font_size 10)))
+	(text "inst1" (rect 8 128 31 140)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "probe[9..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "probe[9..0]" (rect 4 61 65 75)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 80 72)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(output)
+		(text "source[17..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "source[17..0]" (rect 4 101 79 115)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 80 112)(line_width 3))
+	)
+	(drawing
+		(text "probes" (rect 41 43 87 58)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "probe" (rect 85 67 112 79)(font "Arial" (color 0 0 0)))
+		(text "sources" (rect 35 83 88 98)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "source" (rect 85 107 118 119)(font "Arial" (color 0 0 0)))
+		(text " unnamed " (rect 167 128 218 140)(font "Arial" ))
+		(line (pt 80 32)(pt 128 32))
+		(line (pt 128 32)(pt 128 128))
+		(line (pt 80 128)(pt 128 128))
+		(line (pt 80 32)(pt 80 128))
+		(line (pt 81 52)(pt 81 76))
+		(line (pt 82 52)(pt 82 76))
+		(line (pt 81 92)(pt 81 116))
+		(line (pt 82 92)(pt 82 116))
+		(line (pt 0 0)(pt 208 0))
+		(line (pt 208 0)(pt 208 144))
+		(line (pt 0 144)(pt 208 144))
+		(line (pt 0 0)(pt 0 144))
+	)
+)

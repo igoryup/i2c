@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue May 04 13:58:17 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : i2c
+Top-level Entity Name : i2c
+Family : Cyclone IV E
+Total logic elements : 923
+    Total combinational functions : 682
+    Dedicated logic registers : 619
+Total registers : 619
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 1,152
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
